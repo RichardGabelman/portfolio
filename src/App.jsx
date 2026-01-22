@@ -10,10 +10,19 @@ const Header = () => {
   );
 };
 
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Richard Gabelman. All rights reserved.</p>
+    </footer>
+  )
+}
+
 function App() {
   return (
     <div className="App">
       <Header />
+      <Footer />
     </div>
   );
 }
