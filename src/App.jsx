@@ -3,14 +3,14 @@ import "./App.css";
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="logo">
+      <h1>
         Hello, I'm <span id="name">Richard Gabelman</span>
       </h1>
-      <div className="subtext">
+      <section className="subtext">
         <p>B.S. in Computer Science from San Diego State University</p>
         <p>Aspiring Software Developer</p>
-      </div>
-      <div className="contact-links">
+      </section>
+      <nav className="contact-links">
         <a
           href="https://github.com/RichardGabelman"
           className="contact-link"
@@ -27,7 +27,7 @@ const Header = () => {
         >
           LinkedIn
         </a>
-      </div>
+      </nav>
     </header>
   );
 };
