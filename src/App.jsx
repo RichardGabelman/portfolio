@@ -3,9 +3,7 @@ import "./App.css";
 const Header = () => {
   return (
     <header className="header">
-      <nav className="nav">
-        <h1 className="logo">Richard Gabelman</h1>
-      </nav>
+      <h1 className="logo">Richard Gabelman</h1>
     </header>
   );
 };
