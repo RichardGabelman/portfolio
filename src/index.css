@@ -1,5 +1,5 @@
 :root {
-  --max-width: 1050px;
+  --max-width: 1000px;
   --color-bg: #0A0908;
   --color-text: #FFFFFF;
   --color-primary: #f1ca9d;
@@ -26,6 +26,7 @@ a {
 main {
   max-width: var(--max-width);
   margin: 0 auto;
+  padding: 0rem 2rem;
 }
 
 .header {
@@ -59,11 +60,21 @@ main {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.5rem;
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1rem;
 }
 
 .github:hover {
   background-color: #131110;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.linkedin {
+  border: none;
+  background-color: #0A66C2;
+}
+
+.linkedin:hover {
+  background-color: #0a5299;
 }
