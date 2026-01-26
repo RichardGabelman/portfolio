@@ -32,12 +32,11 @@ main {
   padding: 2rem 0rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .header h1 {
   font-size: 3rem;
-  margin-bottom: 0.5rem;
 }
 
 #name {
@@ -48,4 +47,23 @@ main {
   font-size: 1.5rem;
   font-weight: 300;
   color:#dfdfdf;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  font-weight: 400;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.github:hover {
+  background-color: #131110;
 }
