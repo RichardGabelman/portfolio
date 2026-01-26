@@ -45,12 +45,25 @@ const Projects = () => {
               <div className="technologies">
                 {project.technologies.map((tech, index) => (
                   <span key={index} className="tech-tag">
-                    {tech + ' '}
+                    {tech}
                   </span>
                 ))}
               </div>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const Contact = () => {
+  return (
+    <section className="contact">
+      <div className="container">
+        <div className="contact-links">
+          <a href="https://github.com/RichardGabelman" className="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/richard-gabelman/" className="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </section>
@@ -73,6 +86,7 @@ function App() {
       <Header />
       <About />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
