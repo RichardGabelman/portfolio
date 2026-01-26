@@ -3,23 +3,32 @@ import "./App.css";
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="logo">Richard Gabelman</h1>
-    </header>
-  );
-};
-
-const About = () => {
-  return (
-    <section className="about">
-      <div className="container">
-        <h2>About Me</h2>
-        <p>
-          Hello, I am Richard Gabelman III. I am a newgrad with a B.S. in
-          Computer Science from San Diego State University. I am open to tech
-          opportunities.
-        </p>
+      <h1 className="logo">
+        Hello, I'm <span id="name">Richard Gabelman</span>
+      </h1>
+      <div className="subtext">
+        <p>B.S. in Computer Science from San Diego State University</p>
+        <p>Aspiring Software Developer</p>
       </div>
-    </section>
+      <div className="contact-links">
+        <a
+          href="https://github.com/RichardGabelman"
+          className="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/richard-gabelman/"
+          className="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
+    </header>
   );
 };
 
@@ -57,19 +66,6 @@ const Projects = () => {
   );
 };
 
-const Contact = () => {
-  return (
-    <section className="contact">
-      <div className="container">
-        <div className="contact-links">
-          <a href="https://github.com/RichardGabelman" className="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/richard-gabelman/" className="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  );
-};
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -82,13 +78,11 @@ const Footer = () => {
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Header />
-      <About />
       <Projects />
-      <Contact />
       <Footer />
-    </div>
+    </main>
   );
 }
 
