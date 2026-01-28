@@ -2,7 +2,7 @@
   --max-width: 1000px;
   --color-bg: #0A0908;
   --color-text: #FFFFFF;
-  --color-primary: #f1ca9d;
+  --color-primary: #ddaa71;
 }
 
 * {
@@ -142,8 +142,8 @@ main {
 }
 
 .footer {
-  margin-top: 4rem;
-  padding: 2rem 0;
+  margin-top: 6rem;
+  padding: 2.5rem 0;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   color: #dfdfdf;
