@@ -74,7 +74,7 @@ const Projects = () => {
       <h2>Personal Projects</h2>
       <div className="projects-list">
         {projects.map((project) => (
-          <div key={project.id} className="project-card">
+          <article key={project.id} className="project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="technologies">
@@ -107,7 +107,7 @@ const Projects = () => {
                 </a>
               )}
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
