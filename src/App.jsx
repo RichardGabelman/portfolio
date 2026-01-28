@@ -67,6 +67,30 @@ const Projects = () => {
       github_link: "google.com",
       live_link: "google.com",
     },
+    {
+      id: 2,
+      title: "Project Placeholder",
+      description: "Description Placeholder",
+      technologies: ["Tech1", "Tech2", "Tech3"],
+      github_link: "google.com",
+      live_link: "google.com",
+    },
+    {
+      id: 3,
+      title: "Project Placeholder",
+      description: "Description Placeholder",
+      technologies: ["Tech1", "Tech2", "Tech3"],
+      github_link: "google.com",
+      live_link: "google.com",
+    },
+    {
+      id: 4,
+      title: "Project Placeholder",
+      description: "Description Placeholder",
+      technologies: ["Tech1", "Tech2", "Tech3"],
+      github_link: "google.com",
+      live_link: "google.com",
+    },
   ];
 
   return (
