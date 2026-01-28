@@ -54,6 +54,10 @@ main {
   color:#dfdfdf;
 }
 
+.subtext p {
+  max-width: 50ch;
+}
+
 .contact-links {
   display: flex;
   gap: 1rem;
@@ -88,8 +92,8 @@ main {
 }
 
 .projects-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
 }
 
@@ -100,7 +104,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  width: 300px;
 }
 
 .technologies {
