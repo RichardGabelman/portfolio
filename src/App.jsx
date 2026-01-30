@@ -60,11 +60,11 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Project Placeholder",
-      description: "Description Placeholder",
-      technologies: ["Tech1", "Tech2", "Tech3"],
-      github_link: "google.com",
-      live_link: "google.com",
+      title: "DevThread - Developer Social Platform",
+      description: "A full-stack social media application inspired by Threads, designed for developers to share updates, engage in discussions, and connect with the tech community. Features user authentication, post-feeds, and interactive social features.",
+      technologies: ["React", "Express", "Prisma", "JWT", "Passport", "Node.js", "PostgreSQL"],
+      github_link: "https://github.com/RichardGabelman/social-network-fullstack",
+      live_link: "https://social-network-fullstack-2avnaio8b-richardgabelmans-projects.vercel.app/",
     },
     {
       id: 2,
