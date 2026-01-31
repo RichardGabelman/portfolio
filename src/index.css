@@ -122,6 +122,8 @@ main {
   padding: 0.15rem 0.45rem;
   border-radius: 0.5rem;
   font-size: 0.9rem;
+  cursor: default;
+  user-select: none;
 }
 
 .project-links {
