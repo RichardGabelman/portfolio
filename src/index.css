@@ -129,6 +129,7 @@ main {
 .project-links {
   display: flex;
   gap: 0.2rem;
+  margin-top: auto;
 }
 
 .project-link {
