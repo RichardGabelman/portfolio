@@ -7,7 +7,10 @@ const Header = () => {
         Hello, I'm <span id="name">Richard Gabelman</span>
       </h1>
       <section className="subtext">
-        <p>B.S. in Computer Science from San Diego State University and Aspiring Software Developer</p>
+        <p>
+          B.S. in Computer Science from San Diego State University and Aspiring
+          Software Developer
+        </p>
       </section>
       <nav className="contact-links">
         <a
@@ -61,15 +64,27 @@ const Projects = () => {
     {
       id: 1,
       title: "DevThread - Developer Social Platform",
-      description: "A full-stack social media application inspired by Threads, designed for developers to share updates, engage in discussions, and connect with the tech community. Features user authentication, post-feeds, and interactive social features.",
-      technologies: ["React", "Express", "Prisma", "JWT", "Passport", "Node.js", "PostgreSQL"],
-      github_link: "https://github.com/RichardGabelman/social-network-fullstack",
-      live_link: "https://social-network-fullstack-2avnaio8b-richardgabelmans-projects.vercel.app/",
+      description:
+        "A full-stack social media application inspired by Threads, designed for developers to share updates, engage in discussions, and connect with the tech community. Features user authentication, post-feeds, and interactive social features.",
+      technologies: [
+        "React",
+        "Express",
+        "Prisma",
+        "JWT",
+        "Passport",
+        "Node.js",
+        "PostgreSQL",
+      ],
+      github_link:
+        "https://github.com/RichardGabelman/social-network-fullstack",
+      live_link:
+        "https://social-network-fullstack-2avnaio8b-richardgabelmans-projects.vercel.app/",
     },
     {
       id: 2,
       title: "Wikipedia Traverse",
-      description: "A Python script that discovers paths between Wikipedia articles using semantic analysis. Scrapes (while respecting robots.txt!) and parses Wikipedia pages to find connections between a starting article and a target article based on title semantic similarity.",
+      description:
+        "A Python script that discovers paths between Wikipedia articles using semantic analysis. Scrapes (while respecting robots.txt!) and parses Wikipedia pages to find connections between a starting article and a target article based on title semantic similarity.",
       technologies: ["Python", "spaCy", "BeautifulSoup", "Web Scraping", "NLP"],
       github_link: "https://github.com/RichardGabelman/wikipedia-traverse",
       live_link: "",
@@ -77,18 +92,11 @@ const Projects = () => {
     {
       id: 3,
       title: "while (rhythm) { dance(); }",
-      description: "A 2D rhythm game prototype built in Unity that won 2nd place in a class competition. Players hit notes timed to music with real-time visual feedback and score tracking. Explores core rhythm game mechanics and Unity's 2D game development mode.",
+      description:
+        "A 2D rhythm game prototype built in Unity that won 2nd place in a class competition. Players hit notes timed to music with real-time visual feedback and score tracking. Explores core rhythm game mechanics and Unity's 2D game development mode.",
       technologies: ["Unity", "C#", "Game Design", "2D Game Dev"],
       github_link: "https://github.com/RichardGabelman/when-rhythm-dance-",
       live_link: "",
-    },
-    {
-      id: 4,
-      title: "Project Placeholder",
-      description: "Description Placeholder",
-      technologies: ["Tech1", "Tech2", "Tech3"],
-      github_link: "google.com",
-      live_link: "google.com",
     },
   ];
 
