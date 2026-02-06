@@ -63,7 +63,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "DevThread - Developer Social Platform",
+      title: "DevThreads - Developer Social Platform",
       description:
         "A full-stack social media application inspired by Threads, designed for developers to share updates, engage in discussions, and connect with the tech community. Features user authentication, post-feeds, and interactive social features.",
       technologies: [
@@ -76,9 +76,9 @@ const Projects = () => {
         "PostgreSQL",
       ],
       github_link:
-        "https://github.com/RichardGabelman/social-network-fullstack",
+        "https://github.com/RichardGabelman/portfolio",
       live_link:
-        "https://social-network-fullstack-2avnaio8b-richardgabelmans-projects.vercel.app/",
+        "https://portfolio-2avnaio8b-richardgabelmans-projects.vercel.app/",
     },
     {
       id: 2,
