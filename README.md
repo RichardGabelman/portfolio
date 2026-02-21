@@ -29,7 +29,6 @@
   <p align="center">
     Personal portfolio website built with React and CSS. Features project showcases with links to live demos and source code.
     <br />
-    <a href="https://github.com/RichardGabelman/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://richard-gabelman.vercel.app">View Live</a>
