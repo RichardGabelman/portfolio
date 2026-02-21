@@ -84,7 +84,7 @@ const Projects = () => {
       id: 2,
       title: "Wikipedia Traverse",
       description:
-        "A Python script that discovers paths between Wikipedia articles using semantic analysis. Scrapes (while respecting robots.txt!) and parses Wikipedia pages to find connections between a starting article and a target article based on title semantic similarity.",
+        "A Python CLI that navigates Wikipedia's link graph using beam search guided by spaCy semantic similarity. Scrapes (while respecting robots.txt!) Wikipedia pages, scores candidate articles by how semantically close their titles are to the target, and reconstructs the full path once found.",
       technologies: ["Python", "spaCy", "BeautifulSoup", "Web Scraping", "NLP"],
       github_link: "https://github.com/RichardGabelman/wikipedia-traverse",
       live_link: "",
