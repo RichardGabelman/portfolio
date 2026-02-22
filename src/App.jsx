@@ -8,7 +8,7 @@ const Header = () => {
       </h1>
       <section className="subtext">
         <p>
-          B.S. in Computer Science from San Diego State University and Aspiring
+          B.S. in Computer Science from San Diego State University and
           Software Developer
         </p>
       </section>
