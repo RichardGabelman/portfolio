@@ -8,8 +8,8 @@ const Header = () => {
       </h1>
       <section className="subtext">
         <p>
-          B.S. in Computer Science from San Diego State University and
-          Software Developer
+          B.S. in Computer Science from San Diego State University and Software
+          Developer
         </p>
       </section>
       <nav className="contact-links">
@@ -74,14 +74,22 @@ const Projects = () => {
         "Passport",
         "Node.js",
         "PostgreSQL",
+        "Vite"
       ],
       github_link:
-        "https://github.com/RichardGabelman/portfolio",
-      live_link:
-        "https://portfolio-2avnaio8b-richardgabelmans-projects.vercel.app/",
+        "https://github.com/RichardGabelman/social-network-fullstack",
+      live_link: "https://devthreads.richardgabelman.com",
     },
     {
       id: 2,
+      title: "California Tenant Rights RAG",
+      description: "A retrieval-augmented generation app that makes California tenant law searchable in plain English. Describe your situation and the app finds the most relevant legal code sections, returning ranked results with citation links and AI-generated plain-language summaries.",
+      technologies: ["Python", "FastAPI", "ChromaDB", "Sentence Transformers", "Groq", "React", "Vite"],
+      github_link: "https://github.com/RichardGabelman/ca-tenant-law-rag",
+      live_link: "https://calitenantrights.richardgabelman.com",
+    },
+    {
+      id: 3,
       title: "Wikipedia Traverse",
       description:
         "A Python CLI that navigates Wikipedia's link graph using beam search guided by spaCy semantic similarity. Scrapes (while respecting robots.txt!) Wikipedia pages, scores candidate articles by how semantically close their titles are to the target, and reconstructs the full path once found.",
@@ -90,7 +98,7 @@ const Projects = () => {
       live_link: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "while (rhythm) { dance(); }",
       description:
         "A 2D rhythm game prototype built in Unity that won 2nd place in a class competition. Players hit notes timed to music with real-time visual feedback and score tracking. Explores core rhythm game mechanics and Unity's 2D game development mode.",
