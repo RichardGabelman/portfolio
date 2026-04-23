@@ -31,7 +31,7 @@
     <br />
     <br />
     <br />
-    <a href="https://richard-gabelman.vercel.app">View Live</a>
+    <a href="https://richardgabelman.com">View Live</a>
     &middot;
     <a href="https://github.com/RichardGabelman/portfolio/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
   </p>
