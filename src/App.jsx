@@ -74,7 +74,7 @@ const Projects = () => {
         "Passport",
         "Node.js",
         "PostgreSQL",
-        "Vite"
+        "Vite",
       ],
       github_link:
         "https://github.com/RichardGabelman/social-network-fullstack",
@@ -83,8 +83,17 @@ const Projects = () => {
     {
       id: 2,
       title: "California Tenant Rights RAG",
-      description: "A retrieval-augmented generation app that makes California tenant law searchable in plain English. Describe your situation and the app finds the most relevant legal code sections, returning ranked results with citation links and AI-generated plain-language summaries.",
-      technologies: ["Python", "FastAPI", "ChromaDB", "Sentence Transformers", "Groq", "React", "Vite"],
+      description:
+        "A retrieval-augmented generation app that makes California tenant law searchable in plain English. Describe your situation and the app finds the most relevant legal code sections, returning ranked results with citation links and AI-generated plain-language summaries.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "ChromaDB",
+        "Sentence Transformers",
+        "Groq",
+        "React",
+        "Vite",
+      ],
       github_link: "https://github.com/RichardGabelman/ca-tenant-law-rag",
       live_link: "https://calitenantrights.richardgabelman.com",
     },
