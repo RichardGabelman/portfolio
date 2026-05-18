@@ -3,6 +3,7 @@ import devthreadsImg from "../assets/devthreads.png";
 import caRagImg from "../assets/caRag.png";
 import wikipediatraverseImg from "../assets/wikipediatraverse.png";
 import rhythmImg from "../assets/rhythm.png";
+import whiteboardImg from "../assets/whiteboard.png";
 
 const Header = () => {
   return (
@@ -12,7 +13,9 @@ const Header = () => {
         Hi, I'm <span id="name">Richard Gabelman</span>
       </h1>
       <p className="subtext">
-        CS grad from SDSU. I build full-stack web apps and like working at the intersection of technology and real-world problems. Lately focused on RAG pipelines and semantic search.
+        CS grad from SDSU. I build full-stack web apps and like working at the
+        intersection of technology and real-world problems. Lately focused on
+        RAG pipelines and semantic search.
       </p>
       <nav className="contact-links">
         <a
@@ -84,7 +87,8 @@ const Projects = () => {
       id: 1,
       title: "DevThreads",
       subtitle: "Developer Social Platform",
-      description: "A full-stack social platform where developers share projects and follow each other's work. Features GitHub OAuth, nested threads, a REST API with Prisma, and an integration test suite covering auth and social graph operations.",
+      description:
+        "A full-stack social platform where developers share projects and follow each other's work. Features GitHub OAuth, nested threads, a REST API with Prisma, and an integration test suite covering auth and social graph operations.",
       technologies: [
         "React",
         "Express",
@@ -123,19 +127,48 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "Real-Time Whiteboard",
+      subtitle: "Multiplayer Collaborative Canvas",
+      description:
+        "A full-stack collaborative whiteboard where users draw, place sticky notes, and see each other's cursors live. Features Redis pub/sub to sync events across multiple server instances, WebSocket communication via Socket.io, and PostgreSQL persistence so board history survives page refreshes.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "Socket.io",
+        "Redis",
+        "PostgreSQL",
+        "Prisma",
+        "Docker",
+      ],
+      github_link: "https://github.com/RichardGabelman/real-time-whiteboard",
+      live_link: "https://whiteboard.richardgabelman.com",
+      accent: "#6366f1",
+      image: whiteboardImg,
+      image_placeholder_label: "whiteboard screenshot",
+    },
+    {
+      id: 4,
       title: "Wikipedia Traverse",
       subtitle: "Semantic Graph Navigation CLI",
       description:
         "A beam search algorithm that navigates Wikipedia's link graph autonomously. Uses spaCy word vector embeddings to score candidate articles by semantic similarity to the target, with rate-limit-compliant scraping and cycle prevention.",
-      technologies: ["Python", "spaCy", "BeautifulSoup", "NLP", "Beam Search", "Cosine Similarity"],
+      technologies: [
+        "Python",
+        "spaCy",
+        "BeautifulSoup",
+        "NLP",
+        "Beam Search",
+        "Cosine Similarity",
+      ],
       github_link: "https://github.com/RichardGabelman/wikipedia-traverse",
       live_link: "",
-      accent: "#a78bfa",
+      accent: "#ffffff",
       image: wikipediatraverseImg,
       image_placeholder_label: "wikipedia traverse demo",
     },
     {
-      id: 4,
+      id: 5,
       title: "while (rhythm) { dance(); }",
       subtitle: "2D Rhythm Game · 2nd Place",
       description:
