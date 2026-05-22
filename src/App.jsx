@@ -14,8 +14,7 @@ const Header = () => {
       </h1>
       <p className="subtext">
         CS grad from SDSU. I build full-stack web apps and like working at the
-        intersection of technology and real-world problems. Lately focused on
-        RAG pipelines and semantic search.
+        intersection of technology and public policy.
       </p>
       <nav className="contact-links">
         <a
