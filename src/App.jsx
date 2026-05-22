@@ -84,28 +84,6 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "DevThreads",
-      subtitle: "Developer Social Platform",
-      description:
-        "A full-stack social platform where developers share projects and follow each other's work. Features GitHub OAuth, nested threads, a REST API with Prisma, and an integration test suite covering auth and social graph operations.",
-      technologies: [
-        "React",
-        "Express",
-        "Prisma",
-        "PostgreSQL",
-        "Node.js",
-        "Vitest",
-        "GitHub OAuth",
-      ],
-      github_link:
-        "https://github.com/RichardGabelman/social-network-fullstack",
-      live_link: "https://devthreads.richardgabelman.com",
-      accent: "#64edf1",
-      image: devthreadsImg,
-      image_placeholder_label: "devthreads screenshot",
-    },
-    {
-      id: 2,
       title: "CA Tenant Rights RAG",
       subtitle: "AI-Powered Legal Search",
       description:
@@ -125,7 +103,7 @@ const Projects = () => {
       image_placeholder_label: "tenant rights app screenshot",
     },
     {
-      id: 3,
+      id: 2,
       title: "Real-Time Whiteboard",
       subtitle: "Multiplayer Collaborative Canvas",
       description:
@@ -145,6 +123,28 @@ const Projects = () => {
       accent: "#6366f1",
       image: whiteboardImg,
       image_placeholder_label: "whiteboard screenshot",
+    },
+    {
+      id: 3,
+      title: "DevThreads",
+      subtitle: "Developer Social Platform",
+      description:
+        "A full-stack social platform where developers share projects and follow each other's work. Features GitHub OAuth, nested threads, a REST API with Prisma, and an integration test suite covering auth and social graph operations.",
+      technologies: [
+        "React",
+        "Express",
+        "Prisma",
+        "PostgreSQL",
+        "Node.js",
+        "Vitest",
+        "GitHub OAuth",
+      ],
+      github_link:
+        "https://github.com/RichardGabelman/social-network-fullstack",
+      live_link: "https://devthreads.richardgabelman.com",
+      accent: "#64edf1",
+      image: devthreadsImg,
+      image_placeholder_label: "devthreads screenshot",
     },
     {
       id: 4,
