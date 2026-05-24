@@ -13,7 +13,7 @@ const Header = () => {
         Hi, I'm <span id="name">Richard Gabelman</span>
       </h1>
       <p className="subtext">
-        CS grad from SDSU. I build full-stack web apps and like working at the
+        CS grad from SDSU. I build full-stack web apps and particularly enjoy working at the
         intersection of technology and public policy.
       </p>
       <nav className="contact-links">
