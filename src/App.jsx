@@ -8,7 +8,6 @@ import whiteboardImg from "../assets/whiteboard.png";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-eyebrow">Available for work</div>
       <h1>
         Hi, I'm <span id="name">Richard Gabelman</span>
       </h1>
@@ -204,14 +203,6 @@ const Projects = () => {
               ) : (
                 <div className="card-image-placeholder">
                   <span>{project.image_placeholder_label}</span>
-                  {/* 
-                    TO ADD YOUR SCREENSHOT:
-                    1. Put the image in src/assets/ (e.g. src/assets/devthreads.png)
-                    2. Import it at the top of this file:
-                         import devthreadsImg from "./assets/devthreads.png"
-                    3. Set image: devthreadsImg on this project object
-                    4. The <img> tag above will render automatically
-                  */}
                 </div>
               )}
             </div>
