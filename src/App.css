@@ -41,7 +41,7 @@ main {
 .header {
   padding: 0;
   margin-bottom: 3rem;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .train-svg {
@@ -49,6 +49,35 @@ main {
   height: auto;
   display: block;
   overflow: visible;
+}
+
+.header-plain {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  padding: 3.5rem 0 3rem;
+}
+
+.header-plain h1 {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: var(--color-text);
+}
+
+.header-plain #name-plain {
+  color: var(--color-primary);
+}
+
+.header-plain .subtext {
+  margin-top: 0.75rem;
+}
+
+.header-plain .contact-links {
+  margin-top: 1.5rem;
 }
 
 .header-inner {
@@ -60,6 +89,15 @@ main {
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
+}
+
+.header-inner .subtext {
+  font-size: 1.25rem;
+  max-width: 38ch;
+}
+
+.header-inner .contact-link {
+  font-size: 1.05rem;
 }
 
 .loco {
@@ -85,7 +123,7 @@ main {
 
 .header h1 {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: 3rem;
   font-weight: 400;
   letter-spacing: -0.02em;
   line-height: 1.05;
@@ -97,7 +135,7 @@ main {
 }
 
 .header .subtext {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .header .contact-links {
@@ -105,8 +143,8 @@ main {
 }
 
 .subtext {
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--color-muted);
   max-width: 46ch;
   line-height: 1.75;
@@ -122,7 +160,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -152,7 +190,7 @@ main {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-muted);
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-list {
@@ -179,14 +217,6 @@ main {
   flex-shrink: 0;
   margin-top: 0.15rem;
   opacity: 0.9;
-}
-
-.project-mark-placeholder {
-  width: 36px;
-  height: 36px;
-  border: 1px solid var(--color-rule);
-  border-radius: 4px;
-  margin-top: 0.15rem;
 }
 
 .project-body {
@@ -231,14 +261,14 @@ main {
 }
 
 .project-description {
-  font-size: 0.89rem;
+  font-size: 0.9rem;
   color: var(--color-muted);
   line-height: 1.7;
   max-width: 58ch;
 }
 
 .project-stack {
-  font-size: 0.78rem;
+  font-size: 0.87rem;
   color: var(--color-muted);
   opacity: 0.6;
   letter-spacing: 0.01em;
@@ -255,6 +285,14 @@ main {
 @media (max-width: 560px) {
   .header {
     margin-bottom: 1.5rem;
+  }
+
+  .train-svg {
+    display: none;
+  }
+
+  .header-plain {
+    display: flex;
   }
 
   .header h1 {
