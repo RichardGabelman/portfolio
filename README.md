@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Portfolio Screenshot](images/hero_screenshot.png)](images/hero_screenshot.png)
+[![Portfolio Gif](images/portfolio.gif)](images/portfolio.gif)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
