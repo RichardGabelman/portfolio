@@ -203,7 +203,7 @@ const projects = [
     title: "CA Tenant Rights RAG",
     description:
       "Makes California tenant law accessible in plain English. Describe your situation and get a cited AI-generated answer, pulled from the actual Civil Code via ChromaDB vector search and synthesized by a Groq LLM at query time.",
-    stack: "Python · FastAPI · ChromaDB · Sentence Transformers · Groq · React",
+    stack: "Python · FastAPI · ChromaDB · Sentence Transformers · Groq · React · GitHub Actions",
     github: "https://github.com/RichardGabelman/ca-tenant-law-rag",
     live: "https://calitenantrights.richardgabelman.com",
     mark: <TenantMark />,
@@ -213,7 +213,7 @@ const projects = [
     title: "Real-Time Whiteboard",
     description:
       "Collaborative canvas with live cursors and sticky notes. Redis pub/sub keeps multiple server instances in sync; PostgreSQL persists board state across sessions.",
-    stack: "React · Node.js · Socket.io · Redis · PostgreSQL · Docker",
+    stack: "React · Node.js · Socket.io · Redis · PostgreSQL · Docker · GitHub Actions",
     github: "https://github.com/RichardGabelman/real-time-whiteboard",
     live: "https://whiteboard.richardgabelman.com",
     mark: <WhiteboardMark />,
@@ -223,7 +223,7 @@ const projects = [
     title: "DevThreads",
     description:
       "Social platform where developers share projects and follow each other's work. GitHub OAuth, nested threads, and an integration test suite covering auth and social graph operations.",
-    stack: "React · Express · Prisma · PostgreSQL · Vitest · GitHub OAuth",
+    stack: "React · Express · Prisma · PostgreSQL · Vitest · GitHub OAuth · GitHub Actions",
     github: "https://github.com/RichardGabelman/social-network-fullstack",
     live: "https://devthreads.richardgabelman.com",
     mark: <DevThreadsMark />,
